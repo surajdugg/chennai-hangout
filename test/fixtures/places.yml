@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  avg_price: 1
+  ranking: 1
+  city: 
+
+two:
+  name: MyString
+  avg_price: 1
+  ranking: 1
+  city: 
