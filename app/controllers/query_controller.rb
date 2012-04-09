@@ -1,5 +1,6 @@
 class QueryController < ApplicationController
-  def edit  	
+  def edit
+  	@cities = City.all.map { |city| city.name } 	
   end
 
   def result

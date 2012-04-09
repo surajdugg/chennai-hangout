@@ -3,7 +3,11 @@
 		<form method="POST" action="/query/result">
 		<p>
 			Find a place in
-			<input type="text" name="location"></input>
+			<select name="location">
+				<% @cities.each do |city| %>
+					<option><%= city %></option>
+				<% end %>
+			</select>
 		</p>
 		<p>
 			And I'm looking to spend around
